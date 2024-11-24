@@ -1,0 +1,12 @@
+<div class="content-viewer">
+  <h2>Content Viewer</h2>
+  <label for="template-select">Choose a template:</label>
+  <select id="template-select" (change)="onTemplateChange($event)" [innerHTML]="generateOptions()">
+  </select>
+
+  <!-- Hide the preview section if selectedContent is empty -->
+  <div [hidden]="!isContentSelected()">
+    <h3>Preview</h3>
+    <p>{{ selectedContent }}</p>
+  </div>
+</div>

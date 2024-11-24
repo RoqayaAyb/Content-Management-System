@@ -1,0 +1,14 @@
+.category-management {
+    padding: 20px;
+  }
+  .category-management h2 {
+    font-size: 24px;
+  }
+  .category-management ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .category-management li {
+    margin: 10px 0;
+  }
+  

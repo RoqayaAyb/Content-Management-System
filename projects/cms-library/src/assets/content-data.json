@@ -1,0 +1,14 @@
+{
+    "contents": [
+      {
+        "id": 1,
+        "title": "First Content",
+        "category": "Technology",
+        "tags": ["Angular", "Web"],
+        "publishDate": "2024-11-01"
+      }
+    ],
+    "categories": ["Technology", "Health", "Education"],
+    "tags": ["Angular", "React", "Vue"]
+  }
+  

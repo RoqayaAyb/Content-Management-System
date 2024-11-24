@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "target": "es2015",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "lib": ["es2018", "dom"],
+    "declaration": false,
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

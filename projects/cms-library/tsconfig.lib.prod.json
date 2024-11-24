@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.lib.json",
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "enableResourceInlining": true
+  },
+  "compilerOptions": {
+    "declarationMap": false,
+    "sourceMap": false
+  }
+}
